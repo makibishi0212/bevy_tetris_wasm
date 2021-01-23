@@ -1,21 +1,27 @@
-# Template of multi-target (WASM / Native) Bevy's application
+# bevy_tetris_wasm
 
-## Prerequisites
+https://makibishi0212.github.io/bevy_tetris_wasm/
+
+## build
+
+### Prerequisites
 
 ```
 cargo install cargo-make
 ```
 
-## Build and serve WASM version
+### Build and serve WASM version
+
 ```
 cargo make serve
 ```
+
 then point your browser to http://127.0.0.1:4000/
 
+### Build and run native version
 
-## Build and run native version
 ```
 cargo make run
 ```
 
-![Screenshot](https://mrk.sed.pl/bevy-showcase/assets/bevy_webgl2_app_template.png?v=3)
+![Screenshot](./screen.png)
